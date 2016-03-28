@@ -5,7 +5,7 @@ JXHiBeaconMonitorLib is very useful static library. It monitors iBeacons region.
 How to use it?
 
 1. Download JXHiBeaconMonitorLib.a and Singleton.h and drag them into your project.
-2. use CoreLocation.framework.
+2. Import CoreLocation.framework.
 3. In your AppDelegate.m, import "Singleton.h".
 4. Within didFinishLaunchingWithOptions function, just type: 
 [Singleton registeriBeacon:@"FDA50693-A4E2-4FB1-AFCF-C6EB07647825" withMajor:@"10002" withRange:5.0];
